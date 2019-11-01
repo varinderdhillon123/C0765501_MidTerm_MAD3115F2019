@@ -58,6 +58,7 @@ class LoginViewController: UIViewController {
                     
                     self.customerDict.append(CustomersStruct(customerID: id, customerFName: firstName, customerLName: lastName, email: email, password: password))
                     
+                    
             }
         }
     }
