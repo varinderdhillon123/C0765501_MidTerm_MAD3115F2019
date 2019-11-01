@@ -18,7 +18,6 @@
 		9B3CE408236BAB8500F3DB9D /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE404236BAB8500F3DB9D /* img1.png */; };
 		9B3CE409236BAB8500F3DB9D /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE405236BAB8500F3DB9D /* CustomerListTableViewController.swift */; };
 		9B3CE40A236BAB8500F3DB9D /* NewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */; };
-		9BD23F05236CD19900EE9DCD /* BillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD23F04236CD19900EE9DCD /* BillDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		9B3CE404236BAB8500F3DB9D /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		9B3CE405236BAB8500F3DB9D /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 		9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCustomerViewController.swift; sourceTree = "<group>"; };
-		9BD23F04236CD19900EE9DCD /* BillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +50,6 @@
 		9B3CE3E1236BAACD00F3DB9D = {
 			isa = PBXGroup;
 			children = (
-				9BD23F04236CD19900EE9DCD /* BillDetailsViewController.swift */,
 				9B3CE3EC236BAACD00F3DB9D /* C0765501_MidTerm_MAD3115F2019 */,
 				9B3CE3EB236BAACD00F3DB9D /* Products */,
 			);
@@ -159,7 +156,6 @@
 			files = (
 				9B3CE402236BAB4B00F3DB9D /* LoginViewController.swift in Sources */,
 				9B3CE40A236BAB8500F3DB9D /* NewCustomerViewController.swift in Sources */,
-				9BD23F05236CD19900EE9DCD /* BillDetailsViewController.swift in Sources */,
 				33A67703236C116500964509 /* CustomerStruct.swift in Sources */,
 				9B3CE409236BAB8500F3DB9D /* CustomerListTableViewController.swift in Sources */,
 				33A67701236C115700964509 /* Customer.swift in Sources */,
