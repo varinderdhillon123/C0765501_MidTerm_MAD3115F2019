@@ -14,7 +14,7 @@ class BillDetailsViewController:UIViewController, UITableViewDataSource, UITable
 
 var billdata : Customer? = nil
 
-override func viewDidLoad() {
+  override func viewDidLoad() {
     super.viewDidLoad()
     billsTable.delegate=self
     billsTable.dataSource=self
