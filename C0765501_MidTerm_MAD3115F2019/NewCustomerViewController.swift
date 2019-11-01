@@ -10,13 +10,18 @@ import UIKit
 
 class NewCustomerViewController: UIViewController {
 
+    @IBOutlet weak var txtemail: UITextField!
+    @IBOutlet weak var txtlname: UITextField!
+    @IBOutlet weak var txtfname: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func savebutton(_ sender: UIBarButtonItem) {
+    }
+    
     /*
     // MARK: - Navigation
 
