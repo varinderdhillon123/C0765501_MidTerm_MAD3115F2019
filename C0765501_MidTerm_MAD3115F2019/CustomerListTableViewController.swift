@@ -13,6 +13,10 @@ class CustomerListTableViewController: UIViewController {
     
     @IBOutlet weak var newcust: UIBarButtonItem!
     
+    @IBOutlet var CustomerEntries: [UITableView]!
+    
+    
+    
     
     
     @IBAction func custnew(_ sender: UIBarButtonItem)

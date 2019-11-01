@@ -101,6 +101,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="newcust" destination="X9T-jE-lWP" id="0Ze-1J-szD"/>
+                        <outletCollection property="CustomerEntries" destination="5t5-8Y-lfg" collectionClass="NSMutableArray" id="GWA-KG-RRq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYP-X1-Umz" userLabel="First Responder" sceneMemberID="firstResponder"/>
