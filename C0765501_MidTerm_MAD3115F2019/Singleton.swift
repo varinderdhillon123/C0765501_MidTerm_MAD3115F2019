@@ -83,5 +83,7 @@ class Singleton: NSObject
         {
             print(i.customerFName!)
         }
+   
     }
+    
 }
