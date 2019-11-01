@@ -53,15 +53,15 @@ class Singleton: NSObject
     
     func createCust()
     {
-    let customer1 = Customer(customerID: 1, customerFName: "Rizul", customerLName: "Goyal", customerEmail: "rizulgoyal23@gmail.com ")
+    let customer1 = Customer(customerID: 1, customerFName: "Varinder", customerLName: "Dhillon", customerEmail: "varinderdhillonl23@gmail.com ")
         AddCustomer(customer: customer1)
-        let customer2 = Customer(customerID: 2, customerFName: "Anmol", customerLName: "Sharma", customerEmail: "anmol123@gmail.com ")
+        let customer2 = Customer(customerID: 2, customerFName: "Charanpreet", customerLName: "kaur", customerEmail: "charanpreet12@gmail.com ")
         AddCustomer(customer: customer2)
-        let customer3 = Customer(customerID: 3, customerFName: "Kuldeep", customerLName: "Singh", customerEmail: "kuldeep321@gmail.com ")
+        let customer3 = Customer(customerID: 3, customerFName: "Simranjit", customerLName: "Singh", customerEmail: "simranjitsingh1998@gmail.com ")
         AddCustomer(customer: customer3)
-        let customer4 = Customer(customerID: 4, customerFName: "Harpreet", customerLName: "Singh", customerEmail: "har5677@gmail.com ")
+        let customer4 = Customer(customerID: 4, customerFName: "Sachin", customerLName: "Mahi", customerEmail: "simarmahi@gmail.com ")
         AddCustomer(customer: customer4)
-        let customer5 = Customer(customerID: 5, customerFName: "Ritik", customerLName: "Gupta", customerEmail: "ritik098@gmail.com ")
+        let customer5 = Customer(customerID: 5, customerFName: "Harmanpreet", customerLName: "Sharma", customerEmail: "harmanpreetsharma@gmail.com ")
         AddCustomer(customer: customer5)
     }
     
