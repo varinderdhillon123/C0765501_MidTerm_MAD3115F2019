@@ -30,7 +30,7 @@ func numberOfSections(in tableView: UITableView) -> Int {
     return 1
    }
    
-   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "EmailCell", for: indexPath)
     cell.textLabel?.text = billdata?.customerEmail
        return cell
