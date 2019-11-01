@@ -72,6 +72,11 @@ class Singleton: NSObject
     {
         customerDictionary.updateValue(customer, forKey: customer.customerID!)
     }
+    
+    func returnNumber() -> Int {
+        return customerDictionary.count
+    }
+    
     func printdata()
     {
         for i in customerDictionary.values

@@ -33,7 +33,7 @@ class CustomerListTableViewController: UIViewController, UITableViewDelegate, UI
         customerTable.dataSource=self
         navigationItem.hidesBackButton=true
         allLogOutButton()
-        
+    tempvar.createCust()
         
 
       
