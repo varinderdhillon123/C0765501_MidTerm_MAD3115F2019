@@ -7,74 +7,22 @@
 //
 
 import Foundation
-class Customer {
- 
-    var customerId : Int
-    var customerFirstName : String
-    var customerLastName : String
+class Customer
+{
+    var customerID : Int?
+    var customerFName: String?
+    var customerLName : String?
     var fullName : String{
-        return "\(customerFirstName ) \(customerLastName)"
+        return customerFName! + " " + customerLName!
     }
-    var customerEmail : String
-    var arrayBill : [Bill]
+      var customerEmail: String?
+    //var billDictionary = [Int:Bill]()
+    var totalBillAmount : Float?
     
-    static var dictCustomers = [Int:Customer]()
-    
-    
-    var totalBill : Float{
-        var bill = 00.00
-        
-        for a in arrayBill{
-            bill = bill + Double(a.billAmount)
-        }
-        return Float(bill)
+    init(customerID:Int,customerFName: String,customerLName:String,customerEmail:String) {
+        self.customerID=customerID
+        self.customerFName=customerFName
+        self.customerLName=customerLName
+        self.customerEmail=customerEmail
     }
-    
-    
-    init(customerId : Int , firstName : String , lastName: String , email: String , arrayOfBills: [Bill]) {
-        self.customerId = customerId
-        self.customerFirstName = firstName
-        self.customerLastName = lastName
-        self.customerEmail = email
-        self.arrayBill = arrayOfBills
-    }
-    
-    
-
-    
-    func displayNameSortedByTotal() {
-        
-        print("CustomerId: \(customerId)\n" + "Custome Name: \(fullName)\n" + "Customer Email: \(customerEmail)")
-        print("Total Amount to Pay: \(totalBill.dollorConvertion())")
-        print("\t************************************************")
-    }
-    
-    
-    static func addCustomers(customer : Customer){
-        dictCustomers.updateValue(customer, forKey: customer.customerId)
-    }
-    
-    static func sortCustomerUsingTotal() {
-        print("")
-        print("Customer details in ascending order with respect to total bill to be paid\n")
-        let customers = dictCustomers.sorted(by: {a,b in
-            return a.value.totalBill > b.value.totalBill
-        })
-        
-        for newList in customers{
-            newList.value.displayNameSortedByTotal()
-        }
-    }
-    
-    static func getCustomerByCustomerId(customerId : Int)  {
-        print("")
-        if let customer = dictCustomers[customerId] {
-            print("\t\tDetails of Customer whose id is: \(customerId)")
-            print("\t\tCustomer Name is: \(customer.fullName)")
-            print("\t\tCustomer Email is: \(customer.customerEmail)")
-        }else {
-            print("\t\tThere is no customer with id: \(customerId)")
-        }
-    }
-    
 }
