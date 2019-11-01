@@ -53,7 +53,7 @@ class Singleton: NSObject
     
     func createCust()
     {
-    let customer1 = Customer(customerID: 1, customerFName: "Varinder", customerLName: "Dhillon", customerEmail: "varinderdhillonl23@gmail.com ")
+     let customer1 = Customer(customerID: 1, customerFName: "Varinder", customerLName: "Dhillon", customerEmail: "varinderdhillonl23@gmail.com ")
         AddCustomer(customer: customer1)
         let customer2 = Customer(customerID: 2, customerFName: "Charanpreet", customerLName: "kaur", customerEmail: "charanpreet12@gmail.com ")
         AddCustomer(customer: customer2)
