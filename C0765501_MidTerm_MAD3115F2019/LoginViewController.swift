@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
                    {
                        
                        let sb=UIStoryboard(name: "Main", bundle: nil)
-                       let CustVC = sb.instantiateViewController(identifier: "CustVC") as! CustomerListTableViewController
+                       let CustVC = sb.instantiateViewController(withIdentifier: "CustVC") as! CustomerListTableViewController
                               navigationController?.pushViewController(CustVC, animated: true)
                }
                    else{
