@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33A676F0236C054200964509 /* Customer in Resources */ = {isa = PBXBuildFile; fileRef = 33A676EE236C054100964509 /* Customer */; };
-		33A676F1236C054200964509 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 33A676EF236C054200964509 /* Extension */; };
 		33A676FF236C107900964509 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A676FE236C107900964509 /* Singleton.swift */; };
 		33A67701236C115700964509 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A67700236C115700964509 /* Customer.swift */; };
 		33A67703236C116500964509 /* CustomerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A67702236C116500964509 /* CustomerStruct.swift */; };
+		33A67705236C16CC00964509 /* BillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A67704236C16CC00964509 /* BillDetailsViewController.swift */; };
 		9B3CE3EE236BAACD00F3DB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE3ED236BAACD00F3DB9D /* AppDelegate.swift */; };
 		9B3CE3F5236BAACE00F3DB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE3F4236BAACE00F3DB9D /* Assets.xcassets */; };
 		9B3CE400236BAB0A00F3DB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE3FF236BAB0A00F3DB9D /* Main.storyboard */; };
@@ -23,11 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33A676EE236C054100964509 /* Customer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Customer; sourceTree = "<group>"; };
-		33A676EF236C054200964509 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
 		33A676FE236C107900964509 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		33A67700236C115700964509 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		33A67702236C116500964509 /* CustomerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerStruct.swift; sourceTree = "<group>"; };
+		33A67704236C16CC00964509 /* BillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailsViewController.swift; sourceTree = "<group>"; };
 		9B3CE3EA236BAACD00F3DB9D /* C0765501_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0765501_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3CE3ED236BAACD00F3DB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B3CE3F4236BAACE00F3DB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +71,7 @@
 				9B3CE3ED236BAACD00F3DB9D /* AppDelegate.swift */,
 				9B3CE3FF236BAB0A00F3DB9D /* Main.storyboard */,
 				9B3CE401236BAB4B00F3DB9D /* LoginViewController.swift */,
+				33A67704236C16CC00964509 /* BillDetailsViewController.swift */,
 				9B3CE3F4236BAACE00F3DB9D /* Assets.xcassets */,
 				9B3CE404236BAB8500F3DB9D /* img1.png */,
 				9B3CE3F9236BAACE00F3DB9D /* Info.plist */,
@@ -82,8 +81,6 @@
 				33A67700236C115700964509 /* Customer.swift */,
 				33A676FE236C107900964509 /* Singleton.swift */,
 				33A67702236C116500964509 /* CustomerStruct.swift */,
-				33A676EE236C054100964509 /* Customer */,
-				33A676EF236C054200964509 /* Extension */,
 			);
 			path = C0765501_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -146,8 +143,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A676F0236C054200964509 /* Customer in Resources */,
-				33A676F1236C054200964509 /* Extension in Resources */,
 				9B3CE407236BAB8500F3DB9D /* LaunchScreen.storyboard in Resources */,
 				9B3CE408236BAB8500F3DB9D /* img1.png in Resources */,
 				9B3CE400236BAB0A00F3DB9D /* Main.storyboard in Resources */,
@@ -164,6 +159,7 @@
 			files = (
 				9B3CE402236BAB4B00F3DB9D /* LoginViewController.swift in Sources */,
 				9B3CE40A236BAB8500F3DB9D /* NewCustomerViewController.swift in Sources */,
+				33A67705236C16CC00964509 /* BillDetailsViewController.swift in Sources */,
 				33A67703236C116500964509 /* CustomerStruct.swift in Sources */,
 				9B3CE409236BAB8500F3DB9D /* CustomerListTableViewController.swift in Sources */,
 				33A67701236C115700964509 /* Customer.swift in Sources */,
