@@ -20,7 +20,7 @@ class CustomerListTableViewController: UIViewController, UITableViewDelegate, UI
     @IBOutlet weak var customerTable: UITableView!
     
     
-    @IBAction func custnew(_ sender: UIBarButtonItem)
+     @IBAction func custnew(_ sender: UIBarButtonItem)
     {
         let storybrd1 = UIStoryboard(name: "Main", bundle: nil)
         let NewVC = storybrd1.instantiateViewController(withIdentifier: "NewVC") as! NewCustomerViewController
