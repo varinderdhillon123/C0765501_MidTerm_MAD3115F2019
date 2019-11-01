@@ -176,28 +176,22 @@
                         <viewLayoutGuide key="safeArea" id="Elv-Aa-zfJ"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Customer" id="IH7-l3-dBT">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="ohU-Ne-n8m"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="ohU-Ne-n8m">
+                            <connections>
+                                <action selector="savebutton:" destination="KVC-rD-ccd" id="4xl-6R-hTW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="txtemail" destination="lw4-i7-077" id="Pku-1f-pxd"/>
+                        <outlet property="txtfname" destination="OTt-y8-I8U" id="gWm-xa-1Ht"/>
+                        <outlet property="txtlname" destination="Viv-xd-MN6" id="pcT-d1-IeZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lke-UY-21b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2205.7971014492755" y="135.9375"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="2tD-e7-X2Q">
-            <objects>
-                <viewController id="5kD-3E-mBJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="joT-iQ-7pK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="orK-rL-XCL"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hm3-jI-5XF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2953" y="135"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gcZ-ej-yxJ">

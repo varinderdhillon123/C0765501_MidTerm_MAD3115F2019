@@ -1,30 +1,22 @@
 //
-//  NewCustomerViewController.swift
+//  BillDetailsViewController.swift
 //  C0765501_MidTerm_MAD3115F2019
 //
-//  Created by MacStudent on 2019-10-31.
+//  Created by MacStudent on 2019-11-01.
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
 import UIKit
 
-class NewCustomerViewController: UIViewController {
+class BillDetailsViewController: UIViewController {
 
-    @IBOutlet weak var txtemail: UITextField!
-    @IBOutlet weak var txtlname: UITextField!
-    @IBOutlet weak var txtfname: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func savebutton(_ sender: UIBarButtonItem)
-    {
-        
-    
-    }
-    
+
     /*
     // MARK: - Navigation
 

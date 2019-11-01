@@ -76,20 +76,9 @@ class CustomerListTableViewController: UIViewController, UITableViewDelegate, UI
     
     
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Customer's List"
-    }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let billVC = sb.instantiateViewController(withIdentifier: "BillVC") as? BillDetailsViewController
-        billVC?.billdata = tempvar.returnCustObject(custID: indexPath.row + 1)
-        
-        navigationController?.pushViewController(billVC!, animated: true)
-        
-    }
-
     
+      
 
     /*
     // MARK: - Navigation
