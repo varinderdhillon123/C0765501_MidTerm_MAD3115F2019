@@ -15,7 +15,7 @@ struct CustomersStruct {
     var email : String
     var password : String
     
-    var fullName : String{
+     var fullName : String{
         return "\(customerFName ) \(customerLName)"
     }
     
