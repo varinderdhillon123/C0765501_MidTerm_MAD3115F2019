@@ -16,26 +16,32 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var switchbtn: UISwitch!
     
-    @IBAction func login(_ sender: Any) {
-        let Emailid = txtemail.text!
-        let password = txtpassword.text!
-       
-        if( Emailid == "varinder701dhillon@gmail.com" )
-        {
-            if(password == "Dhillon1313")
-            {
-                print(" password is correct")
-            }
-            
-            print("SignUp Successfull")
-        }else{
-            print("Invalid email and password")
-        }
-        let storybrd = UIStoryboard(name: "Main", bundle: nil)
-        let CustVC = storybrd.instantiateViewController(withIdentifier: "CustVC") as! CustomerListTableViewController
-        navigationController?.pushViewController(CustVC, animated: true)
-    }
     
+    
+    @available(iOS 13.0, *)
+    @IBAction func login(_ sender: Any) {
+      
+        
+               let name = txtemail.text!
+               let password = txtpassword.text!
+               if name == "varinderdhillon" && password == "admin123"
+                   {
+                       
+                       let sb=UIStoryboard(name: "Main", bundle: nil)
+                       let CustVC = sb.instantiateViewController(identifier: "CustVC") as! CustomerListTableViewController
+                              navigationController?.pushViewController(CustVC, animated: true)
+               }
+                   else{
+                       let alert = UIAlertController(title: "Invalid Username Or Password", message: "Please Enter Valid username or password", preferredStyle: .alert)
+
+                       alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
+                       alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+                       
+                       self.present(alert, animated: true)
+                   }
+           }
+           
+           
     
     override func viewDidLoad() {
         super.viewDidLoad()
