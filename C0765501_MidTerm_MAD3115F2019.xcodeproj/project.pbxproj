@@ -7,32 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33A676FF236C107900964509 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A676FE236C107900964509 /* Singleton.swift */; };
 		33A67701236C115700964509 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A67700236C115700964509 /* Customer.swift */; };
-		33A67703236C116500964509 /* CustomerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A67702236C116500964509 /* CustomerStruct.swift */; };
+		33E1E4052375387E007F5361 /* MyDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E4042375387E007F5361 /* MyDataStore.swift */; };
+		33E1E40A23753918007F5361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E1E40623753918007F5361 /* LaunchScreen.storyboard */; };
+		33E1E40B23753918007F5361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E1E40823753918007F5361 /* Main.storyboard */; };
+		33E1E40D23753998007F5361 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33E1E40C23753998007F5361 /* UserInfo.plist */; };
+		33E1E41023753A7D007F5361 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E40F23753A7D007F5361 /* Bill.swift */; };
+		33E1E41223753A88007F5361 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E41123753A88007F5361 /* Internet.swift */; };
+		33E1E41423753A93007F5361 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E41323753A93007F5361 /* Hydro.swift */; };
+		33E1E41623753A9E007F5361 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E41523753A9E007F5361 /* Mobile.swift */; };
+		33E1E41823753AC5007F5361 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E41723753AC5007F5361 /* User.swift */; };
+		33E1E41A23753AEF007F5361 /* CustomerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E41923753AEF007F5361 /* CustomerError.swift */; };
+		33E1E41F23753BA5007F5361 /* extension_string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E41E23753BA5007F5361 /* extension_string.swift */; };
+		33E1E42123753BB3007F5361 /* extension_date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42023753BB3007F5361 /* extension_date.swift */; };
+		33E1E42323753BD0007F5361 /* extension_float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42223753BD0007F5361 /* extension_float.swift */; };
+		33E1E42523753BDE007F5361 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42423753BDE007F5361 /* IDisplay.swift */; };
+		33E1E42723753BED007F5361 /* BillType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42623753BED007F5361 /* BillType.swift */; };
+		33E1E42923753D14007F5361 /* ShowBillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42823753D14007F5361 /* ShowBillDetailsViewController.swift */; };
+		33E1E42B23753DA3007F5361 /* countryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42A23753DA3007F5361 /* countryType.swift */; };
+		33E1E43023753FCD007F5361 /* AddNewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E42F23753FCD007F5361 /* AddNewBillViewController.swift */; };
+		33E1E43223753FFE007F5361 /* AddHydroBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E43123753FFE007F5361 /* AddHydroBillViewController.swift */; };
+		33E1E43423754012007F5361 /* AddMobileBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E43323754012007F5361 /* AddMobileBillViewController.swift */; };
+		33E1E43623754029007F5361 /* AddInternetBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E43523754029007F5361 /* AddInternetBillViewController.swift */; };
+		33E1E43823754272007F5361 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1E43723754272007F5361 /* BillTableViewCell.swift */; };
 		9B3CE3EE236BAACD00F3DB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE3ED236BAACD00F3DB9D /* AppDelegate.swift */; };
 		9B3CE3F5236BAACE00F3DB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE3F4236BAACE00F3DB9D /* Assets.xcassets */; };
-		9B3CE400236BAB0A00F3DB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE3FF236BAB0A00F3DB9D /* Main.storyboard */; };
 		9B3CE402236BAB4B00F3DB9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE401236BAB4B00F3DB9D /* LoginViewController.swift */; };
-		9B3CE407236BAB8500F3DB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE403236BAB8500F3DB9D /* LaunchScreen.storyboard */; };
 		9B3CE408236BAB8500F3DB9D /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE404236BAB8500F3DB9D /* img1.png */; };
-		9B3CE409236BAB8500F3DB9D /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE405236BAB8500F3DB9D /* CustomerListTableViewController.swift */; };
+		9B3CE409236BAB8500F3DB9D /* BillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE405236BAB8500F3DB9D /* BillListTableViewController.swift */; };
 		9B3CE40A236BAB8500F3DB9D /* NewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33A676FE236C107900964509 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		33A67700236C115700964509 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		33A67702236C116500964509 /* CustomerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerStruct.swift; sourceTree = "<group>"; };
+		33E1E4042375387E007F5361 /* MyDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataStore.swift; sourceTree = "<group>"; };
+		33E1E40723753918007F5361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E1E40923753918007F5361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E1E40C23753998007F5361 /* UserInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
+		33E1E40F23753A7D007F5361 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		33E1E41123753A88007F5361 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		33E1E41323753A93007F5361 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		33E1E41523753A9E007F5361 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		33E1E41723753AC5007F5361 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		33E1E41923753AEF007F5361 /* CustomerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerError.swift; sourceTree = "<group>"; };
+		33E1E41E23753BA5007F5361 /* extension_string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_string.swift; sourceTree = "<group>"; };
+		33E1E42023753BB3007F5361 /* extension_date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_date.swift; sourceTree = "<group>"; };
+		33E1E42223753BD0007F5361 /* extension_float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_float.swift; sourceTree = "<group>"; };
+		33E1E42423753BDE007F5361 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		33E1E42623753BED007F5361 /* BillType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillType.swift; sourceTree = "<group>"; };
+		33E1E42823753D14007F5361 /* ShowBillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBillDetailsViewController.swift; sourceTree = "<group>"; };
+		33E1E42A23753DA3007F5361 /* countryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryType.swift; sourceTree = "<group>"; };
+		33E1E42F23753FCD007F5361 /* AddNewBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBillViewController.swift; sourceTree = "<group>"; };
+		33E1E43123753FFE007F5361 /* AddHydroBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHydroBillViewController.swift; sourceTree = "<group>"; };
+		33E1E43323754012007F5361 /* AddMobileBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMobileBillViewController.swift; sourceTree = "<group>"; };
+		33E1E43523754029007F5361 /* AddInternetBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInternetBillViewController.swift; sourceTree = "<group>"; };
+		33E1E43723754272007F5361 /* BillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
 		9B3CE3EA236BAACD00F3DB9D /* C0765501_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0765501_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3CE3ED236BAACD00F3DB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B3CE3F4236BAACE00F3DB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B3CE3F9236BAACE00F3DB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B3CE3FF236BAB0A00F3DB9D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9B3CE401236BAB4B00F3DB9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		9B3CE403236BAB8500F3DB9D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B3CE404236BAB8500F3DB9D /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
-		9B3CE405236BAB8500F3DB9D /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		9B3CE405236BAB8500F3DB9D /* BillListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillListTableViewController.swift; sourceTree = "<group>"; };
 		9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCustomerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +83,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33E1E40E23753A6B007F5361 /* SwiftClasses */ = {
+			isa = PBXGroup;
+			children = (
+				33E1E40F23753A7D007F5361 /* Bill.swift */,
+				33E1E41123753A88007F5361 /* Internet.swift */,
+				33E1E41323753A93007F5361 /* Hydro.swift */,
+				33E1E41523753A9E007F5361 /* Mobile.swift */,
+				33A67700236C115700964509 /* Customer.swift */,
+				33E1E41723753AC5007F5361 /* User.swift */,
+			);
+			path = SwiftClasses;
+			sourceTree = "<group>";
+		};
+		33E1E41C23753B3D007F5361 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				33E1E41923753AEF007F5361 /* CustomerError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		33E1E41D23753B75007F5361 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				33E1E41E23753BA5007F5361 /* extension_string.swift */,
+				33E1E42023753BB3007F5361 /* extension_date.swift */,
+				33E1E42223753BD0007F5361 /* extension_float.swift */,
+				33E1E42423753BDE007F5361 /* IDisplay.swift */,
+				33E1E42623753BED007F5361 /* BillType.swift */,
+				33E1E42A23753DA3007F5361 /* countryType.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9B3CE3E1236BAACD00F3DB9D = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +136,26 @@
 		9B3CE3EC236BAACD00F3DB9D /* C0765501_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				33E1E40E23753A6B007F5361 /* SwiftClasses */,
+				33E1E41C23753B3D007F5361 /* Error */,
+				33E1E41D23753B75007F5361 /* Extensions */,
 				9B3CE3ED236BAACD00F3DB9D /* AppDelegate.swift */,
-				9B3CE3FF236BAB0A00F3DB9D /* Main.storyboard */,
 				9B3CE401236BAB4B00F3DB9D /* LoginViewController.swift */,
 				9B3CE3F4236BAACE00F3DB9D /* Assets.xcassets */,
 				9B3CE404236BAB8500F3DB9D /* img1.png */,
+				33E1E40623753918007F5361 /* LaunchScreen.storyboard */,
+				33E1E40823753918007F5361 /* Main.storyboard */,
 				9B3CE3F9236BAACE00F3DB9D /* Info.plist */,
-				9B3CE403236BAB8500F3DB9D /* LaunchScreen.storyboard */,
-				9B3CE405236BAB8500F3DB9D /* CustomerListTableViewController.swift */,
+				33E1E40C23753998007F5361 /* UserInfo.plist */,
+				9B3CE405236BAB8500F3DB9D /* BillListTableViewController.swift */,
 				9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */,
-				33A67700236C115700964509 /* Customer.swift */,
-				33A676FE236C107900964509 /* Singleton.swift */,
-				33A67702236C116500964509 /* CustomerStruct.swift */,
+				33E1E42823753D14007F5361 /* ShowBillDetailsViewController.swift */,
+				33E1E43723754272007F5361 /* BillTableViewCell.swift */,
+				33E1E42F23753FCD007F5361 /* AddNewBillViewController.swift */,
+				33E1E43123753FFE007F5361 /* AddHydroBillViewController.swift */,
+				33E1E43523754029007F5361 /* AddInternetBillViewController.swift */,
+				33E1E43323754012007F5361 /* AddMobileBillViewController.swift */,
+				33E1E4042375387E007F5361 /* MyDataStore.swift */,
 			);
 			path = C0765501_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -140,10 +218,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3CE407236BAB8500F3DB9D /* LaunchScreen.storyboard in Resources */,
+				33E1E40A23753918007F5361 /* LaunchScreen.storyboard in Resources */,
 				9B3CE408236BAB8500F3DB9D /* img1.png in Resources */,
-				9B3CE400236BAB0A00F3DB9D /* Main.storyboard in Resources */,
 				9B3CE3F5236BAACE00F3DB9D /* Assets.xcassets in Resources */,
+				33E1E40D23753998007F5361 /* UserInfo.plist in Resources */,
+				33E1E40B23753918007F5361 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,17 +233,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E1E41F23753BA5007F5361 /* extension_string.swift in Sources */,
+				33E1E41823753AC5007F5361 /* User.swift in Sources */,
 				9B3CE402236BAB4B00F3DB9D /* LoginViewController.swift in Sources */,
+				33E1E4052375387E007F5361 /* MyDataStore.swift in Sources */,
 				9B3CE40A236BAB8500F3DB9D /* NewCustomerViewController.swift in Sources */,
-				33A67703236C116500964509 /* CustomerStruct.swift in Sources */,
-				9B3CE409236BAB8500F3DB9D /* CustomerListTableViewController.swift in Sources */,
+				33E1E41623753A9E007F5361 /* Mobile.swift in Sources */,
+				33E1E41A23753AEF007F5361 /* CustomerError.swift in Sources */,
+				33E1E42523753BDE007F5361 /* IDisplay.swift in Sources */,
+				33E1E41223753A88007F5361 /* Internet.swift in Sources */,
+				33E1E43223753FFE007F5361 /* AddHydroBillViewController.swift in Sources */,
+				33E1E42123753BB3007F5361 /* extension_date.swift in Sources */,
+				33E1E42B23753DA3007F5361 /* countryType.swift in Sources */,
+				33E1E42323753BD0007F5361 /* extension_float.swift in Sources */,
+				33E1E43023753FCD007F5361 /* AddNewBillViewController.swift in Sources */,
+				9B3CE409236BAB8500F3DB9D /* BillListTableViewController.swift in Sources */,
+				33E1E41423753A93007F5361 /* Hydro.swift in Sources */,
+				33E1E43823754272007F5361 /* BillTableViewCell.swift in Sources */,
+				33E1E43423754012007F5361 /* AddMobileBillViewController.swift in Sources */,
+				33E1E43623754029007F5361 /* AddInternetBillViewController.swift in Sources */,
 				33A67701236C115700964509 /* Customer.swift in Sources */,
-				33A676FF236C107900964509 /* Singleton.swift in Sources */,
+				33E1E42923753D14007F5361 /* ShowBillDetailsViewController.swift in Sources */,
+				33E1E42723753BED007F5361 /* BillType.swift in Sources */,
+				33E1E41023753A7D007F5361 /* Bill.swift in Sources */,
 				9B3CE3EE236BAACD00F3DB9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33E1E40623753918007F5361 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E1E40723753918007F5361 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		33E1E40823753918007F5361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E1E40923753918007F5361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9B3CE3FA236BAACE00F3DB9D /* Debug */ = {
