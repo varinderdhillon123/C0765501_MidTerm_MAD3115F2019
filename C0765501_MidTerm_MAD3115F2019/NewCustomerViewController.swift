@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 class NewCustomerViewController: UIViewController {
     let temp = Singleton.getInstance()
 
@@ -28,6 +29,11 @@ class NewCustomerViewController: UIViewController {
            let cEmail = txtemail.text
            
            temp.addNewCustomer(First_Name: cFName!, Last_Name: cLName!, email: cEmail!)
+        let alert = UIAlertController(title: "Succeed", message: "Customer Added", preferredStyle: UIAlertController.Style.alert)
+
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        
     }
     
     /*

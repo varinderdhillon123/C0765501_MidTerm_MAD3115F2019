@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
         
                let name = txtemail.text!
                let password = txtpassword.text!
-               if name == "varinderdhillon" && password == "admin123"
+               if name == "a" && password == "a"
                    {
                        
                        let sb=UIStoryboard(name: "Main", bundle: nil)
