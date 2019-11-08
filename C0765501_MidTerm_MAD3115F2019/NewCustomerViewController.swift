@@ -9,6 +9,7 @@
 import UIKit
 
 class NewCustomerViewController: UIViewController {
+    let temp = Singleton.getInstance()
 
     @IBOutlet weak var txtemail: UITextField!
     @IBOutlet weak var txtlname: UITextField!
@@ -22,7 +23,11 @@ class NewCustomerViewController: UIViewController {
     @IBAction func savebutton(_ sender: UIBarButtonItem)
     {
         
-    
+    let cFName = txtfname.text
+           let cLName = txtlname.text
+           let cEmail = txtemail.text
+           
+           temp.addNewCustomer(First_Name: cFName!, Last_Name: cLName!, email: cEmail!)
     }
     
     /*
