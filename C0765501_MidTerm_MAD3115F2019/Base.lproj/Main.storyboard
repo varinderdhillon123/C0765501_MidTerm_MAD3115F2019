@@ -126,6 +126,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="l7q-dK-7nk"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Unv-M1-4HI"/>
                     <connections>
                         <outlet property="buttonAddCustomer" destination="I5S-x2-oHI" id="1BT-6q-b1X"/>
                         <outlet property="txtEmail" destination="f3N-3P-ivR" id="bt4-q8-zX9"/>
@@ -188,7 +189,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCb-lS-SgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="k5c-eH-W78" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1819" y="82"/>
+            <point key="canvasLocation" x="2728.985507246377" y="81.696428571428569"/>
         </scene>
         <!--Detail-->
         <scene sceneID="8QR-Nb-lKF">
@@ -336,6 +337,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fne-M7-3r4"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jYm-RQ-ZZN"/>
                     <connections>
                         <outlet property="lblBillPay" destination="0f2-j1-2Oh" id="t3Z-GL-HNR"/>
                         <outlet property="lblEmail" destination="6Uc-jY-BJu" id="wGa-sA-8Ae"/>
@@ -346,7 +348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="leh-qL-6ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2669.5652173913045" y="81.696428571428569"/>
+            <point key="canvasLocation" x="3579.7101449275365" y="81.696428571428569"/>
         </scene>
         <!--Add New Bill View Controller-->
         <scene sceneID="gVs-rf-wq4">
@@ -409,7 +411,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1dR-ib-ucE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3524.6376811594205" y="86.383928571428569"/>
+            <point key="canvasLocation" x="4434.7826086956529" y="86.383928571428569"/>
         </scene>
         <!--Internet Bill Details-->
         <scene sceneID="t2W-GJ-pSW">
@@ -518,7 +520,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWw-nc-gtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4343.4782608695659" y="219.64285714285714"/>
+            <point key="canvasLocation" x="5253.6231884057979" y="219.64285714285714"/>
         </scene>
         <!--Mobile Bill Details-->
         <scene sceneID="Ryx-Vq-zCR">
@@ -585,25 +587,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9N-3W-ftt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4343.4782608695659" y="-447.32142857142856"/>
+            <point key="canvasLocation" x="5253.6231884057979" y="-447.32142857142856"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="ObY-wd-obQ">
+        <scene sceneID="a1c-Jc-9TI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S7p-fN-gIb" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JNH-NT-hes" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yb7-wg-1q6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wdf-Y5-KFQ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="cdd-Go-Nfb" kind="relationship" relationship="rootViewController" id="XTa-Mo-clh"/>
+                        <segue destination="cdd-Go-Nfb" kind="relationship" relationship="rootViewController" id="vCP-SR-MGa"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xcc-8s-kjR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Qn-f1-Zeh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1083" y="82"/>
+            <point key="canvasLocation" x="1818.840579710145" y="81.696428571428569"/>
         </scene>
     </scenes>
     <resources>

@@ -51,12 +51,15 @@ class AddMobileBillViewController: UIViewController {
                 let alertControl = UIAlertController(title: "Message", message: "New Bill Added Successfully", preferredStyle: .alert)
                 let actionOk = UIAlertAction(title: "Ok", style: .default, handler:
                 {
-                    _ -> Void in
-                    self.navigationController?.popToRootViewController(animated: true)
-                })
-                alertControl.addAction(actionOk)
-                self .present(alertControl , animated: true , completion: nil)
-                bill.display()
+                        _ -> Void in
+                        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "billListTableVC") as! BillListTableViewController
+                        self.navigationController?.pushViewController(nextViewController, animated: true)
+                    })
+                    alertControl.addAction(actionOk)
+                    self .present(alertControl , animated: true , completion: nil)
+                    
+                
             }
             else
             {

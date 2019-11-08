@@ -15,6 +15,7 @@ class BillListTableViewController: UITableViewController {
         self.title = "Customers"
         //MyDataStore.LoadCustomers()
         super.viewDidLoad()
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
