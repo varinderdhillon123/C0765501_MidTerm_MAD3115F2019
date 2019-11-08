@@ -112,12 +112,12 @@ class MyDataStore
     }
     static public func removeInsertCustomer(row : Int , customer : Customer)
     {
-        var oldCustomer : Customer = MyDataStore.customerArray.remove(at: row)
-        var newCustomer : Customer = customer
+        let oldCustomer : Customer = MyDataStore.customerArray.remove(at: row)
+        let newCustomer : Customer = customer
         MyDataStore.customerArray.insert(newCustomer, at: row)
         print("old customer : ",oldCustomer.fullName)
         print("new customer : ",newCustomer.fullName)
-        var latestcustomer : Customer = MyDataStore.customerArray[row]
+        let latestcustomer : Customer = MyDataStore.customerArray[row]
         print("latestcustomer : ",latestcustomer.fullName)
     }
     

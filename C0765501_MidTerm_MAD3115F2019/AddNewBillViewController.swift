@@ -43,7 +43,7 @@ class AddNewBillViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
     @IBAction func actionAddBill(_ sender: Any)
     {
         //let billId : Int = Int(txtbillId.text!)!
-        let billid : Int = 0
+        let billId : Int = 0
         let billDate : Date = datePicker.date
         let totalBill : Float = 0
         let customer = MyDataStore.customerArray[AddNewBillViewController.SELECTED_ROW]
