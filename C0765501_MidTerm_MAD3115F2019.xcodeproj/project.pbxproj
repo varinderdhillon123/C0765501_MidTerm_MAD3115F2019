@@ -36,7 +36,7 @@
 		9B3CE408236BAB8500F3DB9D /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE404236BAB8500F3DB9D /* img1.png */; };
 		9B3CE409236BAB8500F3DB9D /* BillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE405236BAB8500F3DB9D /* BillListTableViewController.swift */; };
 		9B3CE40A236BAB8500F3DB9D /* NewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */; };
-		9BDB0C162376385800B1AC97 /* profileicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB0C152376385800B1AC97 /* profileicon.png */; };
+		9BDB0C1A237642D800B1AC97 /* add-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB0C19237642D800B1AC97 /* add-user.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +71,7 @@
 		9B3CE404236BAB8500F3DB9D /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		9B3CE405236BAB8500F3DB9D /* BillListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillListTableViewController.swift; sourceTree = "<group>"; };
 		9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCustomerViewController.swift; sourceTree = "<group>"; };
-		9BDB0C152376385800B1AC97 /* profileicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileicon.png; sourceTree = "<group>"; };
+		9BDB0C19237642D800B1AC97 /* add-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-user.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,7 @@
 				33E1E40623753918007F5361 /* LaunchScreen.storyboard */,
 				33E1E40823753918007F5361 /* Main.storyboard */,
 				9B3CE3F9236BAACE00F3DB9D /* Info.plist */,
-				9BDB0C152376385800B1AC97 /* profileicon.png */,
+				9BDB0C19237642D800B1AC97 /* add-user.png */,
 				33E1E40C23753998007F5361 /* UserInfo.plist */,
 				9B3CE405236BAB8500F3DB9D /* BillListTableViewController.swift */,
 				9B3CE406236BAB8500F3DB9D /* NewCustomerViewController.swift */,
@@ -221,9 +221,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDB0C1A237642D800B1AC97 /* add-user.png in Resources */,
 				33E1E40A23753918007F5361 /* LaunchScreen.storyboard in Resources */,
 				9B3CE408236BAB8500F3DB9D /* img1.png in Resources */,
-				9BDB0C162376385800B1AC97 /* profileicon.png in Resources */,
 				9B3CE3F5236BAACE00F3DB9D /* Assets.xcassets in Resources */,
 				33E1E40D23753998007F5361 /* UserInfo.plist in Resources */,
 				33E1E40B23753918007F5361 /* Main.storyboard in Resources */,
